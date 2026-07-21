@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-gold-accent: #D4AF37;
+  --color-dark-bg: #080808;
+  --color-panel-bg: #0C0C0C;
+  --color-border-dark: #1A1A1A;
+}
+
+/* Light mode elegant overrides */
+.light {
+  background-color: #FAF8F5 !important;
+  color: #2B2A27 !important;
+}
+
+.light .bg-\[\#080808\] {
+  background-color: #FAF8F5 !important;
+}
+
+.light .bg-\[\#0C0C0C\] {
+  background-color: #FFFFFF !important;
+}
+
+.light .bg-\[\#050505\] {
+  background-color: #F3ECE2 !important;
+}
+
+.light .border-\[\#1A1A1A\] {
+  border-color: #E6DFD3 !important;
+}
+
+.light .border-\[\#222\] {
+  border-color: #E2DBD0 !important;
+}
+
+.light .border-gray-900 {
+  border-color: #E2DBD0 !important;
+}
+
+.light .text-\[\#E0E0D6\] {
+  color: #2B2A27 !important;
+}
+
+.light .text-\[\#BBB\] {
+  color: #3D3B37 !important;
+}
+
+.light .bg-\[\#1A1A1A\] {
+  background-color: #F0EAE1 !important;
+}
+
+.light .hover\:bg-\[\#222\]:hover {
+  background-color: #E8E1D5 !important;
+}
+
+.light .text-gray-300 {
+  color: #3D3B37 !important;
+}
+
+.light .text-gray-400 {
+  color: #52504B !important;
+}
+
+.light .text-gray-500 {
+  color: #6B6963 !important;
+}
+
+.light .text-gray-600 {
+  color: #8C8A82 !important;
+}
+
+.light .text-white {
+  color: #1A1A19 !important;
+}
+
+.light .bg-\[\#080808\]\/70 {
+  background-color: rgba(246, 243, 236, 0.7) !important;
+}
+
+.light .bg-\[\#080808\]\/50 {
+  background-color: rgba(246, 243, 236, 0.5) !important;
+}
+
+.light .bg-\[\#080808\]\/40 {
+  background-color: rgba(246, 243, 236, 0.4) !important;
+}
+
+.light .hover\:bg-\[\#080808\]\/50:hover {
+  background-color: rgba(235, 230, 220, 0.6) !important;
+}
+
+.light .hover\:bg-\[\#141414\]:hover {
+  background-color: #F0EAE1 !important;
+}
+
+/* Selection and Accent colors */
+.light ::selection {
+  background-color: rgba(212, 175, 55, 0.2) !important;
+  color: #1A1A19 !important;
+}
+
+.light .accent-\[\#D4AF37\] {
+  accent-color: #B59424 !important;
+}
+
+/* Waveform component colors */
+.light .border-indigo-950\/30 {
+  border-color: #E2DBD0 !important;
+}
+
+.light .bg-indigo-950\/10 {
+  background-color: #FAF8F5 !important;
+}
+
+.light .text-indigo-400 {
+  color: #B59424 !important;
+}
+
+.light .bg-indigo-950\/20 {
+  background-color: rgba(212, 175, 55, 0.1) !important;
+}
+
+.light .text-indigo-300 {
+  color: #8F7216 !important;
+}
+
+/* Gold styling adjustments for light mode readability */
+.light .text-\[\#D4AF37\] {
+  color: #B59424 !important;
+}
+
+.light .border-\[\#D4AF37\] {
+  border-color: #B59424 !important;
+}
+
+.light .border-\[\#D4AF37\]\/40 {
+  border-color: rgba(181, 148, 36, 0.4) !important;
+}
+
+.light .border-\[\#D4AF37\]\/50 {
+  border-color: rgba(181, 148, 36, 0.5) !important;
+}
+
+.light .border-\[\#D4AF37\]\/60 {
+  border-color: rgba(181, 148, 36, 0.6) !important;
+}
+
+.light .bg-\[\#D4AF37\]\/5 {
+  background-color: rgba(181, 148, 36, 0.05) !important;
+}
+
+.light .bg-\[\#D4AF37\]\/10 {
+  background-color: rgba(181, 148, 36, 0.1) !important;
+}
+
+.light .bg-\[\#D4AF37\]\/15 {
+  background-color: rgba(181, 148, 36, 0.15) !important;
+}
+
+.light .hover\:bg-\[\#D4AF37\]\/10:hover {
+  background-color: rgba(181, 148, 36, 0.1) !important;
+}
+
+.light .hover\:bg-\[\#D4AF37\]\/20:hover {
+  background-color: rgba(181, 148, 36, 0.2) !important;
+}
+
+.light .hover\:bg-\[\#D4AF37\]\/25:hover {
+  background-color: rgba(181, 148, 36, 0.25) !important;
+}
+
+.light .hover\:bg-\[\#D4AF37\]\/5:hover {
+  background-color: rgba(181, 148, 36, 0.05) !important;
+}
+
+.light .text-indigo-400 {
+  color: #A38018 !important;
+}
+
+

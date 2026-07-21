@@ -1,0 +1,6 @@
+{
+  "name": "Voice Studio",
+  "description": "An interactive Text-to-Speech studio with high-fidelity Gemini AI voices and custom local options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
